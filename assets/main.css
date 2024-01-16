@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.fs-50 {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.fs-42 {
+  font-size: 42px;
+  line-height: 42px;
+}
+
+.fs-36 {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.fs-15 {
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.fw-700 {
+  font-weight: bold;
+}
+
+.lh-22 {
+  line-height: 22px;
+}
+.d-flex {
+  display: flex;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+  animation: showBlock 10s;
+}
+
+.d-flex.justify-space-between {
+  justify-content: space-between;
+}
+.d-flex.align-items-center {
+  align-items: center;
+}
+.w-50 {
+  width: 50%;
+}
+.max-w-100 {
+  max-width: 100%;
+}
+.max-h-100 {
+  max-height: 100%;
+}
+
+.w-100 {
+  max-width: 100%;
+}
+
+.w-25 {
+  min-width: 25%;
+  max-width: 25%;
+  width: 25%;
+}
+.h-100 {
+  max-height: 100%;
+}
+
+.b-radius-3 {
+  border-radius: 3px;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mt-35 {
+  margin-top: 35px;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.pt-25 {
+  padding-top: 25px;
+}
+
+.pr-20 {
+  padding-right: 20px;
+}
+
+.wrapper {
+  width: 1000px;
+  height: auto;
+  margin-left: calc(50% - 500px);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.h-0 {
+  max-height: 0px;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.h-auto {
+  max-height: unset;
+  overflow: unset;
+}
+
+[data-block-open] {
+  transition: all 0.3s ease-in-out;
+}
+
+.hr {
+  width: 100%;
+  max-height: 1px;
+  min-height: 1px;
+  flex-shrink: 0;
+  border-radius: 1px;
+  background: #d9d9d9;
+  padding: 0;
+  margin: 0;
+}
+
+.italic {
+  font-style: italic;
+}

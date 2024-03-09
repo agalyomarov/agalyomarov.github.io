@@ -203,9 +203,22 @@ body {
   }
 }
 
+@media (max-width: 439px) {
+  .wrapper {
+    width: 320px;
+    /* margin-left: calc(50% - 350px); */
+    margin-left: 0px;
+    margin: 0 auto;
+  }
+  #header {
+    width: inherit;
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 767px) {
   .wrapper {
-    width: 440px;
+    width: 550px;
     /* margin-left: calc(50% - 350px); */
     margin-left: 0px;
     margin: 0 auto;

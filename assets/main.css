@@ -19,6 +19,11 @@ body {
   line-height: 42px;
 }
 
+.fs-32 {
+  font-size: 36px;
+  line-height: 36px;
+}
+
 .fs-36 {
   font-size: 36px;
   line-height: 36px;
@@ -58,6 +63,7 @@ body {
 .w-50 {
   width: 50%;
 }
+
 .max-w-100 {
   max-width: 100%;
 }
@@ -80,6 +86,9 @@ body {
 
 .b-radius-3 {
   border-radius: 3px;
+}
+.b-radius-50percent {
+  border-radius: 50%;
 }
 
 .mt-25 {
@@ -107,6 +116,10 @@ body {
 }
 
 .pt-25 {
+  padding-top: 25px;
+}
+
+.pt-20 {
   padding-top: 25px;
 }
 
@@ -153,4 +166,55 @@ body {
 
 .italic {
   font-style: italic;
+}
+
+@media (min-width: 1024px) {
+  .w-lg-50 {
+    width: 50%;
+  }
+  .mt-lg-0 {
+    margin-top: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .wrapper {
+    width: 768px;
+    /* margin-left: calc(50% - 350px); */
+    margin-left: 0px;
+    margin: 0 auto;
+  }
+  #header {
+    width: inherit;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    width: 440px;
+    /* margin-left: calc(50% - 350px); */
+    margin-left: 0px;
+    margin: 0 auto;
+  }
+  #header {
+    width: inherit;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    width: 440px;
+    /* margin-left: calc(50% - 350px); */
+    margin-left: 0px;
+    margin: 0 auto;
+  }
+  #header {
+    width: inherit;
+    flex-direction: column;
+  }
+}
+.mt-sm-10 {
+  margin-top: 10px;
 }
